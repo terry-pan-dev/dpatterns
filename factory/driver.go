@@ -2,8 +2,8 @@ package factory
 
 import "fmt"
 
-// MyFactoryShowApp method
-func MyFactoryShowApp() {
+// MyFactoryAppDemo method
+func MyFactoryAppDemo() {
 	fmt.Println("Factory Design Pattern Demo")
 	dogFactory := DogFactory{}
 	var dog Animal = dogFactory.CreateAnimal()
