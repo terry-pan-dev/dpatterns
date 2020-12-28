@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/terry-pan-dev/design-pattern/abfactory"
 	"github.com/terry-pan-dev/design-pattern/builder"
 	"github.com/terry-pan-dev/design-pattern/factory"
 	"github.com/terry-pan-dev/design-pattern/observer"
@@ -18,4 +19,6 @@ func main() {
 	observer.MyObserverAppDemo()
 	fmt.Println("============== Strategy Pattern ===============")
 	strategy.MyStrategyAppDemo()
+	fmt.Println("============== abstract factory Pattern ===============")
+	abfactory.MyAbstractFactoryAppDemo()
 }
